@@ -9,10 +9,11 @@ class TeacherDetails extends Component {
       searchStr: "",
       viewData: [],
       searchedData: undefined,
-      subjects: undefined,
+      
     };
     this.studentJson = JSON.parse(localStorage.getItem("jsonData"));
   }
+
   searchCallBackFunction = (dataFromSearch, searchStr) => {
     this.setState({ searchedData: dataFromSearch, searchStr: searchStr });
   };
@@ -20,13 +21,11 @@ class TeacherDetails extends Component {
     var data = this.studentJson.reduce((prev, curr, arr) => {
       return [...prev, ...curr.teacher_data];
     }, []);
-    var subjectData = this.studentJson.reduce((prev, curr, arr) => {
-      return [...prev, { class: curr.class }, ...curr.subjects];
-    }, []);
-    this.setState({ viewData: data, subjects: subjectData });
+    this.setState({ viewData: data });
   }
 
   changeHandler = (teachersData, checkbox) => {
+    this.setState((prevState) => ({ checked: !prevState.checked }))
     var data = this.studentJson;
 
     if (checkbox.checked) {
@@ -35,6 +34,17 @@ class TeacherDetails extends Component {
           classes.subjects.forEach((subject) => {
             if (subject.subject.includes(teachersData.subject))
               subject.teacherAssigned = teachersData.teacherName;
+          });
+        }
+      });
+      this.studentJson = data;
+      localStorage.setItem("jsonData", JSON.stringify(this.studentJson));
+    }else{
+      data.forEach((classes) => {
+        if (classes.class.includes(teachersData.class)) {
+          classes.subjects.forEach((subject) => {
+            if (subject.subject.includes(teachersData.subject))
+              subject.teacherAssigned = null;
           });
         }
       });
@@ -117,22 +127,19 @@ class TeacherDetails extends Component {
                                         <Table.Cell textAlign="center">
                                           {items.class === undefined && (
                                             <Checkbox
-                                              toggle
+                                              
                                               onChange={(e, data) => {
                                                 let classDataTeach = {
                                                   class: classData.class,
                                                   subject: items.subject,
-                                                  teacherName:
-                                                    teachers.teacherName,
+                                                  teacherName: teachers.teacherName,
                                                 };
                                                 this.changeHandler(
                                                   classDataTeach,
                                                   data
                                                 );
                                               }}
-                                              checked={
-                                                items.teacherAssigned !== null
-                                              }
+                                              checked={items.teacherAssigned !== null}
                                             />
                                           )}
                                         </Table.Cell>
