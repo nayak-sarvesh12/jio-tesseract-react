@@ -1,0 +1,1179 @@
+[
+  {
+    "class": "A",
+    "subjects": [
+      {
+        "subject": "English",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Physics",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Chemistry",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Math",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Biology",
+        "teacherAssigned": null
+      }
+    ],
+    "teacher_data": [
+      {
+        "teacherName": "Amie Dumper",
+        "subject": "Chemistry",
+        "doj": "10/29/2020",
+        "qualification": "B.Tech",
+        "id": 10000
+      },
+      {
+        "teacherName": "Beryle Furmonger",
+        "subject": "Biology",
+        "doj": "08/29/2020",
+        "qualification": "B.Tech",
+        "id": 10001
+      },
+      {
+        "teacherName": "Dre Pauli",
+        "subject": "English",
+        "doj": "12/29/2020",
+        "qualification": "B.Tech",
+        "id": 10002
+      },
+      {
+        "teacherName": "Delbert Tomsen",
+        "subject": "Math",
+        "doj": "11/29/2020",
+        "qualification": "B.Tech",
+        "id": 10003
+      },
+      {
+        "teacherName": "Nickey Heindrich",
+        "subject": "Physics",
+        "doj": "01/19/2020",
+        "qualification": "B.Tech",
+        "id": 10004
+      }
+    ],
+    "student_data": [
+      {
+        "studentName": "Loella Munehay",
+        "rollnumber": 10001,
+        "dob": "01/08/2018",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 58
+          },
+          {
+            "subject": "English",
+            "marks": 68
+          },
+          {
+            "subject": "Physics",
+            "marks": 50
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 26
+          }
+        ]
+      },
+      {
+        "studentName": "Ida Sivill",
+        "rollnumber": 10002,
+        "dob": "18/04/2017",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 29
+          },
+          {
+            "subject": "Math",
+            "marks": 61
+          },
+          {
+            "subject": "Physics",
+            "marks": 32
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 64
+          }
+        ]
+      },
+      {
+        "studentName": "Martha Redhills",
+        "rollnumber": 10003,
+        "dob": "09/11/2017",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 73
+          },
+          {
+            "subject": "Biology",
+            "marks": 34
+          },
+          {
+            "subject": "Physics",
+            "marks": 39
+          },
+          {
+            "subject": "English",
+            "marks": 61
+          }
+        ]
+      },
+      {
+        "studentName": "Kitti Blackwood",
+        "rollnumber": 10004,
+        "dob": "21/03/2006",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 63
+          },
+          {
+            "subject": "Physics",
+            "marks": 62
+          },
+          {
+            "subject": "English",
+            "marks": 90
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 96
+          }
+        ]
+      },
+      {
+        "studentName": "Ulrike Taberer",
+        "rollnumber": 10005,
+        "dob": "23/08/2008",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 65
+          },
+          {
+            "subject": "English",
+            "marks": 62
+          },
+          {
+            "subject": "Physics",
+            "marks": 62
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 100
+          }
+        ]
+      },
+      {
+        "studentName": "Alex Lissandri",
+        "rollnumber": 10006,
+        "dob": "26/09/2003",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 77
+          },
+          {
+            "subject": "English",
+            "marks": 28
+          },
+          {
+            "subject": "Physics",
+            "marks": 73
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 40
+          }
+        ]
+      },
+      {
+        "studentName": "Leyla Jandera",
+        "rollnumber": 10007,
+        "dob": "18/12/2009",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 66
+          },
+          {
+            "subject": "Biology",
+            "marks": 25
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 59
+          },
+          {
+            "subject": "Physics",
+            "marks": 76
+          }
+        ]
+      },
+      {
+        "studentName": "Geri Epdell",
+        "rollnumber": 10008,
+        "dob": "28/10/2012",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "marks": 42
+          },
+          {
+            "subject": "Math",
+            "marks": 89,
+            "teacherAssigned": "Delbert Tomsen"
+          },
+          {
+            "subject": "English",
+            "marks": 85
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 40
+          }
+        ]
+      },
+      {
+        "studentName": "Annmarie Brugden",
+        "rollnumber": 10009,
+        "dob": "18/09/2017",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 88
+          },
+          {
+            "subject": "Math",
+            "marks": 85
+          },
+          {
+            "subject": "Physics",
+            "marks": 80
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 85
+          }
+        ]
+      },
+      {
+        "studentName": "Sibella Magarrell",
+        "rollnumber": 10010,
+        "dob": "17/05/2008",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 35
+          },
+          {
+            "subject": "English",
+            "marks": 56
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 86
+          },
+          {
+            "subject": "Physics",
+            "marks": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "B",
+    "subjects": [
+      {
+        "subject": "English",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Physics",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Chemistry",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Math",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Biology",
+        "teacherAssigned": null
+      }
+    ],
+    "teacher_data": [
+      {
+        "teacherName": "Faber McKeaney",
+        "subject": null,
+        "doj": "04/17/2013",
+        "qualification": "B.Tech",
+        "id": 10005
+      },
+      {
+        "teacherName": "Ephraim Bownd",
+        "subject": null,
+        "doj": "08/27/2013",
+        "qualification": "M.Sc",
+        "id": 10006
+      },
+      {
+        "teacherName": "Lishe Petrov",
+        "subject": null,
+        "doj": "09/06/2001",
+        "qualification": "M.Tech",
+        "id": 10007
+      },
+      {
+        "teacherName": "Krispin Taill",
+        "subject": null,
+        "doj": "04/03/2002",
+        "qualification": "M.Tech",
+        "id": 10008
+      },
+      {
+        "teacherName": "Florinda Atherley",
+        "subject": null,
+        "doj": "08/08/2009",
+        "qualification": "M.Tech",
+        "id": 10009
+      }
+    ],
+    "student_data": [
+      {
+        "studentName": "Ingrid Hoyer",
+        "rollnumber": 10001,
+        "dob": "23/01/2001",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 100
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 53
+          },
+          {
+            "subject": "English",
+            "marks": 78
+          },
+          {
+            "subject": "Physics",
+            "marks": 40
+          }
+        ]
+      },
+      {
+        "studentName": "Hatty Rashleigh",
+        "rollnumber": 10002,
+        "dob": "01/04/2002",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 87
+          },
+          {
+            "subject": "Physics",
+            "marks": 42
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 77
+          },
+          {
+            "subject": "English",
+            "marks": 25
+          }
+        ]
+      },
+      {
+        "studentName": "Tuck Korf",
+        "rollnumber": 10003,
+        "dob": "24/06/2010",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 80
+          },
+          {
+            "subject": "Physics",
+            "marks": 94
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 77
+          },
+          {
+            "subject": "English",
+            "marks": 64
+          }
+        ]
+      },
+      {
+        "studentName": "Bradley Groucutt",
+        "rollnumber": 10004,
+        "dob": "18/02/2006",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 86
+          },
+          {
+            "subject": "Physics",
+            "marks": 44
+          },
+          {
+            "subject": "English",
+            "marks": 91
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 23
+          }
+        ]
+      },
+      {
+        "studentName": "Filippo Frondt",
+        "rollnumber": 10005,
+        "dob": "16/03/2005",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 81
+          },
+          {
+            "subject": "Physics",
+            "marks": 75
+          },
+          {
+            "subject": "English",
+            "marks": 60
+          },
+          {
+            "subject": "Math",
+            "marks": 38
+          }
+        ]
+      },
+      {
+        "studentName": "Brena Rohan",
+        "rollnumber": 10006,
+        "dob": "16/10/2014",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 68
+          },
+          {
+            "subject": "English",
+            "marks": 39
+          },
+          {
+            "subject": "Physics",
+            "marks": 39
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 89
+          }
+        ]
+      },
+      {
+        "studentName": "Jermaine Stoneham",
+        "rollnumber": 10007,
+        "dob": "24/09/2003",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 43
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 38
+          },
+          {
+            "subject": "Physics",
+            "marks": 86
+          },
+          {
+            "subject": "English",
+            "marks": 69
+          }
+        ]
+      },
+      {
+        "studentName": "Clarance Krebs",
+        "rollnumber": 10008,
+        "dob": "02/10/2004",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 53
+          },
+          {
+            "subject": "English",
+            "marks": 56
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 61
+          },
+          {
+            "subject": "Physics",
+            "marks": 61
+          }
+        ]
+      },
+      {
+        "studentName": "Jerad Howard - Gater",
+        "rollnumber": 10009,
+        "dob": "13/01/2002",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 66
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 33
+          },
+          {
+            "subject": "English",
+            "marks": 42
+          },
+          {
+            "subject": "Physics",
+            "marks": 46
+          }
+        ]
+      },
+      {
+        "studentName": "Byrle Loachhead",
+        "rollnumber": 10010,
+        "dob": "18/11/2014",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 29
+          },
+          {
+            "subject": "English",
+            "marks": 73
+          },
+          {
+            "subject": "Math",
+            "marks": 92
+          },
+          {
+            "subject": "Physics",
+            "marks": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "C",
+    "subjects": [
+      {
+        "subject": "English",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Physics",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Chemistry",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Math",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Biology",
+        "teacherAssigned": null
+      }
+    ],
+    "teacher_data": [
+      {
+        "teacherName": "Leon Grave",
+        "subject": "Physics",
+        "doj": "11/08/2020",
+        "qualification": "B.Tech",
+        "id": 10010
+      },
+      {
+        "teacherName": "Alexa Barhem",
+        "subject": "English",
+        "doj": "12/06/2001",
+        "qualification": "B.Tech",
+        "id": 10011
+      },
+      {
+        "teacherName": "Kandace Trasler",
+        "subject": "Chemistry",
+        "doj": "02/03/2008",
+        "qualification": "M.Sc",
+        "id": 10012
+      },
+      {
+        "teacherName": "Diarmid Weymouth",
+        "subject": "Math",
+        "doj": "11/11/2011",
+        "qualification": "M.Tech",
+        "id": 10013
+      },
+      {
+        "teacherName": "Ella Belfrage",
+        "subject": "Biology",
+        "doj": "01/05/2019",
+        "qualification": "M.Tech",
+        "id": 10014
+      }
+    ],
+    "student_data": [
+      {
+        "studentName": "Zandra Todaro",
+        "rollnumber": 10001,
+        "dob": "27/01/2012",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 41
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 45
+          },
+          {
+            "subject": "Physics",
+            "marks": 42
+          },
+          {
+            "subject": "English",
+            "marks": 96
+          }
+        ]
+      },
+      {
+        "studentName": "Jody Leagas",
+        "rollnumber": 10002,
+        "dob": "30/06/2001",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 48
+          },
+          {
+            "subject": "English",
+            "marks": 81
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 37
+          },
+          {
+            "subject": "Physics",
+            "marks": 61
+          }
+        ]
+      },
+      {
+        "studentName": "Yule Summerson",
+        "rollnumber": 10003,
+        "dob": "18/07/2012",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 25
+          },
+          {
+            "subject": "Math",
+            "marks": 58
+          },
+          {
+            "subject": "English",
+            "marks": 74
+          },
+          {
+            "subject": "Physics",
+            "marks": 55
+          }
+        ]
+      },
+      {
+        "studentName": "Wadsworth Ulrik",
+        "rollnumber": 10004,
+        "dob": "23/11/2008",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 57
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 78
+          },
+          {
+            "subject": "Physics",
+            "marks": 99
+          },
+          {
+            "subject": "Math",
+            "marks": 45
+          }
+        ]
+      },
+      {
+        "studentName": "Gherardo McJury",
+        "rollnumber": 10005,
+        "dob": "12/01/2009",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 77
+          },
+          {
+            "subject": "Physics",
+            "marks": 35
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 43
+          },
+          {
+            "subject": "Math",
+            "marks": 22
+          }
+        ]
+      },
+      {
+        "studentName": "Ferris Courtois",
+        "rollnumber": 10006,
+        "dob": "22/11/2006",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "marks": 55
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 28
+          },
+          {
+            "subject": "Math",
+            "marks": 21
+          },
+          {
+            "subject": "English",
+            "marks": 95
+          }
+        ]
+      },
+      {
+        "studentName": "Krishnah Godsafe",
+        "rollnumber": 10007,
+        "dob": "17/04/2021",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 42
+          },
+          {
+            "subject": "Physics",
+            "marks": 47
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 44
+          },
+          {
+            "subject": "English",
+            "marks": 73
+          }
+        ]
+      },
+      {
+        "studentName": "Shayna Jerdan",
+        "rollnumber": 10008,
+        "dob": "24/03/2004",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 60
+          },
+          {
+            "subject": "Physics",
+            "marks": 45
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 38
+          },
+          {
+            "subject": "English",
+            "marks": 63
+          }
+        ]
+      },
+      {
+        "studentName": "Perla Lambot",
+        "rollnumber": 10009,
+        "dob": "23/03/2018",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 76
+          },
+          {
+            "subject": "Physics",
+            "marks": 21
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 38
+          },
+          {
+            "subject": "English",
+            "marks": 45
+          }
+        ]
+      },
+      {
+        "studentName": "Celestyn Prandy",
+        "rollnumber": 10010,
+        "dob": "29/11/2000",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 98
+          },
+          {
+            "subject": "Physics",
+            "marks": 21
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 29
+          },
+          {
+            "subject": "English",
+            "marks": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "D",
+    "subjects": [
+      {
+        "subject": "English",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Physics",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Chemistry",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Math",
+        "teacherAssigned": null
+      },
+      {
+        "subject": "Biology",
+        "teacherAssigned": null
+      }
+    ],
+    "teacher_data": [
+      {
+        "teacherName": "Babbette Pigney",
+        "subject": null,
+        "doj": "11/11/2006",
+        "qualification": "M.Sc",
+        "id": 10015
+      },
+      {
+        "teacherName": "Alaric Chirm",
+        "subject": null,
+        "doj": "08/12/2008",
+        "qualification": "B.Tech",
+        "id": 10016
+      },
+      {
+        "teacherName": "Lesley McCarry",
+        "subject": null,
+        "doj": "03/08/2019",
+        "qualification": "M.Tech",
+        "id": 10017
+      },
+      {
+        "teacherName": "Melonie Perview",
+        "subject": null,
+        "doj": "09/04/2018",
+        "qualification": "M.Sc",
+        "id": 10018
+      },
+      {
+        "teacherName": "Paulie Fears",
+        "subject": null,
+        "doj": "02/08/2011",
+        "qualification": "M.Tech",
+        "id": 10019
+      }
+    ],
+    "student_data": [
+      {
+        "studentName": "Heidi Abry",
+        "rollnumber": 10001,
+        "dob": "28/10/2018",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 66
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 72
+          },
+          {
+            "subject": "Physics",
+            "marks": 57
+          },
+          {
+            "subject": "Biology",
+            "marks": 31
+          }
+        ]
+      },
+      {
+        "studentName": "Terese Thorns",
+        "rollnumber": 10002,
+        "dob": "27/08/2006",
+        "subjects": [
+          {
+            "subject": "Biology",
+            "marks": 81
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 70
+          },
+          {
+            "subject": "English",
+            "marks": 60
+          },
+          {
+            "subject": "Physics",
+            "marks": 44
+          }
+        ]
+      },
+      {
+        "studentName": "Rowan Sandys",
+        "rollnumber": 10003,
+        "dob": "26/05/2015",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 68
+          },
+          {
+            "subject": "Math",
+            "marks": 40
+          },
+          {
+            "subject": "English",
+            "marks": 71
+          },
+          {
+            "subject": "Physics",
+            "marks": 78
+          }
+        ]
+      },
+      {
+        "studentName": "Stacy MacPaden",
+        "rollnumber": 10004,
+        "dob": "29/07/2017",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 72
+          },
+          {
+            "subject": "English",
+            "marks": 57
+          },
+          {
+            "subject": "Physics",
+            "marks": 88
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 84
+          }
+        ]
+      },
+      {
+        "studentName": "Sherie Shillinglaw",
+        "rollnumber": 10005,
+        "dob": "12/11/2008",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 55
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 81
+          },
+          {
+            "subject": "English",
+            "marks": 95
+          },
+          {
+            "subject": "Physics",
+            "marks": 30
+          }
+        ]
+      },
+      {
+        "studentName": "Jorry Bohlens",
+        "rollnumber": 10006,
+        "dob": "04/09/2011",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "marks": 27
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 28
+          },
+          {
+            "subject": "English",
+            "marks": 49
+          },
+          {
+            "subject": "Biology",
+            "marks": 41
+          }
+        ]
+      },
+      {
+        "studentName": "Jamaal Hold",
+        "rollnumber": 10007,
+        "dob": "07/05/2002",
+        "subjects": [
+          {
+            "subject": "Chemistry",
+            "marks": 52
+          },
+          {
+            "subject": "English",
+            "marks": 36
+          },
+          {
+            "subject": "Math",
+            "marks": 41
+          },
+          {
+            "subject": "Physics",
+            "marks": 36
+          }
+        ]
+      },
+      {
+        "studentName": "Mannie Ownsworth",
+        "rollnumber": 10008,
+        "dob": "18/03/2010",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 100
+          },
+          {
+            "subject": "Physics",
+            "marks": 31
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 100
+          },
+          {
+            "subject": "English",
+            "marks": 24
+          }
+        ]
+      },
+      {
+        "studentName": "Gottfried Booi",
+        "rollnumber": 10009,
+        "dob": "21/01/2007",
+        "subjects": [
+          {
+            "subject": "Math",
+            "marks": 51
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 55
+          },
+          {
+            "subject": "Physics",
+            "marks": 67
+          },
+          {
+            "subject": "English",
+            "marks": 82
+          }
+        ]
+      },
+      {
+        "studentName": "Libbie Woodburn",
+        "rollnumber": 10010,
+        "dob": "11/12/2009",
+        "subjects": [
+          {
+            "subject": "English",
+            "marks": 87
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 60
+          },
+          {
+            "subject": "Physics",
+            "marks": 59
+          },
+          {
+            "subject": "Biology",
+            "marks": 47
+          }
+        ]
+      }
+    ]
+  }
+]
